@@ -21,7 +21,7 @@
 ## Базовые инфраструктурные службы
 
 - [DNS]()
-- [DHCP]()
+- [DHCP](basic_infrastructure/dhcp.md)
 - [NTP]()
 - [Active Directory]()
 - [Syslog]()
