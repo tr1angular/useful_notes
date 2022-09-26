@@ -109,6 +109,6 @@ mount /dev/vg_test/lvol0    /mnt/lvm-test
 ```
 
 ## Ссылки
-1. [Принципы работы](#https://interface31.ru/tech_it/2020/07/lvm-dlya-nachinayushhih-chast-1-obshhie-voprosy.html)
-2. [Настройка LVM от dmosk](#https://www.dmosk.ru/instruktions.php?object=lvm)
-3. [Настройка LVM от interface31](#https://interface31.ru/tech_it/2020/08/lvm-dlya-nachinayushhih-chast-2-osnovy-upravleniya-tomami.html)
+1. [Принципы работы](https://interface31.ru/tech_it/2020/07/lvm-dlya-nachinayushhih-chast-1-obshhie-voprosy.html)
+2. [Настройка LVM от dmosk](https://www.dmosk.ru/instruktions.php?object=lvm)
+3. [Настройка LVM от interface31](https://interface31.ru/tech_it/2020/08/lvm-dlya-nachinayushhih-chast-2-osnovy-upravleniya-tomami.html)
