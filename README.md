@@ -55,5 +55,5 @@
 
 - [iSCSI]()
 - [SMB]()
-- [NFS]()
+- [NFS](storage/nfs.md)
 - [LVM](storage/lvm.md)
