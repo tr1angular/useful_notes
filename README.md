@@ -54,6 +54,6 @@
 ## Хранение данных
 
 - [iSCSI]()
-- [SMB]()
+- [SMB](storage/smb.md)
 - [NFS](storage/nfs.md)
 - [LVM](storage/lvm.md)
