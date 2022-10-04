@@ -124,3 +124,8 @@ smbclient -L 192.168.100.1 -U user
 ```
 mount -t cifs "//192.168.100.1/Sharedir" /mnt/sambadir -o user=staff1,password=pass
 ```
+
+## Ссылки
+1. [Установка Samba на Ubuntu. Настройка файлового сервера на Linux](https://www.dmosk.ru/instruktions.php?object=samba-ubuntu)
+2. [Установка Samba на CentOS 8. Настройка файлового сервера на Linux](https://www.dmosk.ru/instruktions.php?object=samba-centos8)
+3. [Установка и конфигурация Samba на CentOS 7](https://drach.pro/blog/linux/item/46-centos-7-samba-server)
