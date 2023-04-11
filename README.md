@@ -27,7 +27,7 @@
 - [Syslog]()
 - [SSH]()
 - [Маршрутизация]()
-- [PKI]()
+- [PKI](basic_infrastructure/pki.md)
 
 ## Веб-сервисы
 
