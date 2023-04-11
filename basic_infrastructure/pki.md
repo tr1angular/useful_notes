@@ -3,11 +3,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Cascadia+Code&size=25&pause=10000&color=E63946&center=true&width=435&lines=Public Key Infrastructure" alt="Typing SVG" /></a>
 </h1>
 
-<<<<<<< HEAD
 1. Создание самоподписанных ключей и сертификатов.
-=======
-1. Создание ключей и сертификатов.
->>>>>>> cb7d7d1afc51316cc54aaa87e3db860af3a0259c
 ```bash
 cat << EOF > "./san.conf"
 [req]
