@@ -3,7 +3,11 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Cascadia+Code&size=25&pause=10000&color=E63946&center=true&width=435&lines=Public Key Infrastructure" alt="Typing SVG" /></a>
 </h1>
 
+<<<<<<< HEAD
 1. Создание самоподписанных ключей и сертификатов.
+=======
+1. Создание ключей и сертификатов.
+>>>>>>> cb7d7d1afc51316cc54aaa87e3db860af3a0259c
 ```bash
 cat << EOF > "./san.conf"
 [req]
@@ -39,8 +43,6 @@ openssl x509 -req -days 365 -in client.csr -CA rootCA.crt -CAkey rootCA.key \
 
 # Проверить, записался ли SAN (Subject Alternative Name) в сертификат
 openssl x509 -text -noout -in client.crt | grep -A 1 "Subject Alternative Name"
-```
-2. Сертификат центра сертификации добавить на клиента
 
 ## Ссылки
 1. [OpenSSL: принципы работы, создание сертификатов, аудит](https://hackware.ru/?p=12982)
