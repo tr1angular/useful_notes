@@ -39,6 +39,9 @@ openssl x509 -req -days 365 -in client.csr -CA rootCA.crt -CAkey rootCA.key \
 
 # Проверить, записался ли SAN (Subject Alternative Name) в сертификат
 openssl x509 -text -noout -in client.crt | grep -A 1 "Subject Alternative Name"
+```
+
+2. Сертификат центра сертификации (rootCA) добавить клиентам.
 
 ## Ссылки
 1. [OpenSSL: принципы работы, создание сертификатов, аудит](https://hackware.ru/?p=12982)
